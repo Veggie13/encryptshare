@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="encryptshare" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\encryptshare" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\encryptshare" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+			<Target title="Test">
+				<Option output="bin\Debug\encryptshare" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add option="-DTEST_DLL" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+					<Add directory="bin\Debug" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="AFileSystemElement.cpp" />
+		<Unit filename="AFileSystemElement.h" />
+		<Unit filename="EncryptShare_iostream.cpp" />
+		<Unit filename="EncryptShare_iostream.h" />
+		<Unit filename="FileSystemFile.cpp" />
+		<Unit filename="FileSystemFile.h" />
+		<Unit filename="FileSystemFileData.cpp" />
+		<Unit filename="FileSystemFileData.h" />
+		<Unit filename="FileSystemFolder.cpp" />
+		<Unit filename="FileSystemFolder.h" />
+		<Unit filename="IFileSystemElementFactory.h" />
+		<Unit filename="IFileSystemProvider.h" />
+		<Unit filename="dlldef.h" />
+		<Unit filename="encryptshare.cpp" />
+		<Unit filename="encryptshare.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="main.h" />
+		<Unit filename="test.cpp">
+			<Option target="Test" />
+		</Unit>
+		<Unit filename="tree.hh" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1285645150 source:c:\projects\encryptshare\encryptshare.cpp
+	<string.h>
+	"encryptshare.h"
+
+1285644672 c:\projects\encryptshare\encryptshare.h
+	<list>
+	<string>
+	"dlldef.h"
+
+1284956990 c:\projects\encryptshare\dlldef.h
+
+1285649972 source:c:\projects\encryptshare\test.cpp
+	<fstream>
+	"EncryptShare_iostream.h"
+
+1284956606 source:c:\projects\encryptshare\main.cpp
+	"main.h"
+
+1284956958 c:\projects\encryptshare\main.h
+	<windows.h>
+	"dlldef.h"
+
+1285649918 c:\projects\encryptshare\encryptshare_iostream.h
+	<fstream>
+	<iostream>
+	<list>
+	<streambuf>
+	<vector>
+
+1285650985 source:c:\projects\encryptshare\encryptshare_iostream.cpp
+	"encryptshare.h"
+	"EncryptShare_iostream.h"
+
+1285214164 source:c:\projects\encryptshare\filesystemfile.cpp
+	"FileSystemFile.h"
+
+1285213756 c:\projects\encryptshare\filesystemfile.h
+	"AFileSystemElement.h"
+
+1285213108 c:\projects\encryptshare\afilesystemelement.h
+	<string>
+
+1285439154 source:c:\projects\encryptshare\filesystemfiledata.cpp
+	<string.h>
+	"FileSystemFileData.h"
+
+1285439138 c:\projects\encryptshare\filesystemfiledata.h
+
+1285214194 source:c:\projects\encryptshare\filesystemfolder.cpp
+	"IFileSystemElementFactory.h"
+	"FileSystemFolder.h"
+
+1285213574 c:\projects\encryptshare\ifilesystemelementfactory.h
+	<string>
+
+1285213648 c:\projects\encryptshare\filesystemfolder.h
+	<list>
+	"AFileSystemElement.h"
+
+1285213181 source:c:\projects\encryptshare\afilesystemelement.cpp
+	"IFileSystemElementFactory.h"
+	"AFileSystemElement.h"
+
